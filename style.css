@@ -1,0 +1,20 @@
+.background{
+    width: 1000px;
+    height: 500px;
+    border: solid 1px #000000;
+    background-image: url(verre.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+.multiple-background{
+    width: 1000px;
+    height: 500px;
+    background: url(pomme.jpg) fixed no-repeat 300px 0, url(voiture.jpg) fixed no-repeat top left, url(banane.jpg) fixed no-repeat top right;
+}
+.image{
+    width: 400px;
+    height: 150px;
+    float: right;
+}
